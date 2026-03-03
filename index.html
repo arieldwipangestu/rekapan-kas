@@ -45,6 +45,7 @@ button{
     color:white;
     border:none;
     cursor:pointer;
+    font-weight:bold;
 }
 
 table{
@@ -83,10 +84,10 @@ th{
 
 <form onsubmit="tambahData(); return false;">
     <input id="tanggal" placeholder="Tanggal (4-2-2026)" required>
-    <input id="nama" placeholder="Nama" required>
+    <input id="nama" placeholder="Nama Siswa" required>
     <input id="masuk" type="number" placeholder="Uang Masuk" required>
     <input id="keluar" type="number" placeholder="Pengeluaran" value="0">
-    <input id="alasan" placeholder="Alasan Pengeluaran (opsional)">
+    <input id="alasan" placeholder="Alasan Pengeluaran (wajib jika ada)">
     <button type="submit">Tambah Data</button>
 </form>
 
@@ -106,7 +107,7 @@ th{
 </table>
 
 <div class="footer">
-    Data tersimpan otomatis | Siap GitHub Pages
+    Data kosong dari awal | Siap GitHub Pages
 </div>
 </div>
 
@@ -169,4 +170,4 @@ tampil();
 </script>
 
 </body>
-    </html>
+</html>
